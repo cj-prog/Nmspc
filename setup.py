@@ -1,10 +1,9 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 if __name__ == "__main__":
     setup(
         name='Nmspc',
         version='1.2.3',
-        packages=['nmspc._nmspc', ],
+        packages=find_packages(),
         install_requires=['NmspcPing', 'NmspcPong', ],
     )
-k
